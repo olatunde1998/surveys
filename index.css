@@ -1,0 +1,537 @@
+@import url('https://fonts.google.com/specimen/Open+Sans');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+    background-color: hsl(217, 28%, 15%);
+    color: hsl(0, 0%, 100%);
+}
+li{
+    list-style: none;
+    margin-right: 30px;
+    margin-top: 10px;
+    color: hsl(0, 0%, 100%);
+}
+a{
+    text-decoration: none;
+}
+
+.nav-logo{
+    
+    width: 70px;
+    height: 30px;
+    margin-left: 10px;
+    border: 2px solid red;
+    color: white;
+    margin-top: 40px;
+}
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    border: 2px solid ;
+    margin-top: 60px;
+}
+img{
+    max-width:100%;
+    height:auto;
+}
+.hamburger{
+    border: 2px solid red;
+    width: 40px;
+    margin-top: 40px;
+}
+/*.header{
+    border-bottom: 3px solid white;
+    justify-self: center;
+}*/
+
+.bar1,.bar2,.bar3{
+    width: 35px;
+    height: 3px;
+    background-color: white;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+.surveyBox{
+    border: 2px solid yellow;
+    margin-left: 15px;
+    padding: 20px;
+}
+.surveyHeading{
+    margin-bottom: 15px;
+}
+.surveyingDef{
+    line-height: 24px;
+    font-size: 14px;
+}
+.ourService{
+    border: 2px solid rgb(222, 73, 10);
+    margin-left: 15px;
+    padding: 20px;
+    margin-bottom: 100px;
+    
+}
+.serviceHeadingBox,.managementBox{
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    border: 2px solid blue;
+    width: 200px;
+}
+.serviceHeading,.managementHeading{
+    padding-bottom: 8px;
+    font-size: 20px;
+}
+.serviceDef,.managementDef{
+    font-size: 14px;
+    line-height: 18px;
+
+}
+.cardOne,.cardTwo,.cardThree{
+    border: 2px solid greenyellow;
+    padding-top: 20px;
+}
+.hydrographic{
+    font-size: 18px;
+    margin-bottom: 15px;
+    padding-left: 10px;
+}
+.hydroDef{
+    font-size: 14px;
+    width: 200px;
+    border: 2px solid red;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    
+}
+.hydroButton{
+    margin-left: auto;
+    width: 150px;
+    border: 2px solid greenyellow;
+    text-align: right;
+    
+}
+button{
+    background-color: rgba(0, 61, 155, 1);
+    color: white;
+    padding: 10px;
+
+
+}
+.managementNote{
+    border: 2px solid greenyellow;
+
+}
+.managementNote{
+    border: 2px solid red;
+    margin-left: 15px;
+    padding: 20px;
+    margin-bottom: 60px;
+}
+.manageMiniHead{
+    margin-bottom: 15px;
+}
+.miniDef{
+    line-height: 24px;
+    font-size: 12px;
+}
+footer{
+    background-color: rgba(0, 61, 155, 1);
+}
+.newsletterBox{
+    border: 2px solid rgb(222, 73, 10);
+    padding: 20px;
+    margin-bottom: 50px;
+    
+}
+.newsletterHeading,.getHeading{
+    margin-bottom: 15px;
+    font-size: 18px;
+    
+}
+.newsDef{
+    line-height: 24px;
+    font-size: 12px;
+    margin-bottom: 50px;
+}
+.messageContainer{
+    display: flex;
+    justify-content: space-between;
+}
+.getMessageBox{
+    width: 200px;
+    border: 2px solid rgba(0, 61, 155, 1);
+    height: 40px;
+    background-color: whitesmoke;
+}
+input{
+    width: 200px;
+    height: 40px;
+}
+.contactUs,.aboutUs{
+    font-size: 16px;
+    border: 2px solid rgb(222, 73, 10);
+    padding: 20px;
+}
+.aboutDef{
+    margin-top: 15px;
+    line-height: 24px;
+    font-size: 12px;
+    width: 260px;
+
+}
+
+@media only screen and (min-width: 768px){
+    .advertiseImageBox{
+        border: 2px solid red;
+    }
+    .advertiseImg{
+        width:768px;    
+    }
+    .surveyBox{
+        border: 2px solid yellow;
+        margin-left: 15px;
+        padding: 20px;
+    }
+    .surveyHeading{
+        margin-bottom: 15px;
+        font-size: 32px;
+    }
+    .surveyingDef{
+        line-height: 40px;
+        font-size: 24px;
+    }
+    
+    .ourService{
+        border: 2px solid rgb(222, 73, 10);
+        margin-left: 15px;
+        padding: 20px;
+        margin-bottom: 100px;
+        
+    }
+    .serviceHeadingBox,.managementBox{
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+        border: 2px solid blue;
+        width: 300px;
+    }
+    .serviceHeading,.managementHeading{
+        padding-bottom: 14px;
+        font-size: 36px;
+        
+    }
+    .serviceDef,.managementDef{
+        font-size: 24px;
+        line-height: 32px;
+    
+    }
+    .cardOne,.cardTwo,.cardThree{
+        border: 2px solid greenyellow;
+        padding-top: 20px;
+    }
+    .hydrographic{
+        font-size: 32px;
+        margin-bottom: 15px;
+        padding-left: 10px;
+    }
+    .hydroDef{
+        font-size: 24px;
+        width: 300px;
+        line-height: 30px;
+        border: 2px solid red;
+        padding-left: 10px;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        
+    }
+    .hydroImg{
+        width: 720px;
+    }
+    .hydroButton{
+        margin-left: auto;
+        width: 200px;
+        border: 2px solid greenyellow;
+        text-align: right;
+        
+    }
+    button{
+        background-color: rgba(0, 61, 155, 1);
+        color: white;
+        padding: 18px;
+        font-size: 24px;
+    
+    
+    }
+    .managementNote{
+        border: 2px solid greenyellow;
+    
+    }
+    .managementNote{
+        border: 2px solid red;
+        margin-left: 15px;
+        padding: 20px;
+        margin-bottom: 60px;
+        margin-top: 50px;
+    }
+    .manageMiniHead{
+        margin-bottom: 15px;
+        font-size: 32px;
+    }
+    .miniDef{
+        line-height: 48px;
+        font-size: 24px;
+    }
+    footer{
+        background-color: rgba(0, 61, 155, 1);
+    }
+    .newsletterBox{
+        border: 2px solid rgb(222, 73, 10);
+        padding: 20px;
+        margin-bottom: 50px;
+        
+    }
+    .newsletterHeading,.getHeading{
+        margin-bottom: 15px;
+        font-size: 32px;
+        
+    }
+    .newsDef{
+        line-height: 48px;
+        font-size: 24px;
+        margin-bottom: 50px;
+    }
+    .messageContainer{
+        display: flex;
+        justify-content: space-between;
+    }
+    .getMessageBox{
+        width: 200px;
+        border: 2px solid rgba(0, 61, 155, 1);
+        height: 40px;
+        background-color: whitesmoke;
+    }
+    input{
+        width: 400px;
+        height: 80px;
+    }
+    .subscriber{
+        width: 250px;
+        height: 80px;
+        border: 2px solid white;
+    }
+    .contactUs,.aboutUs{
+        font-size: 32px;
+        border: 2px solid rgb(222, 73, 10);
+        padding: 20px;
+        margin-bottom: 40px;
+    }
+    .aboutDef{
+        margin-top: 15px;
+        line-height: 48px;
+        font-size: 24px;
+        width: 500px;
+    
+    }
+    .mailLink,.phoneLink{
+        font-size: 24px;
+        margin-top: 1px;
+        margin-bottom: 1px;
+
+
+
+    }
+    
+
+
+} 
+
+
+@media only screen and (min-width: 1024px){
+    .advertiseImageBox{
+        border: 2px solid red;
+    }
+    .advertiseImg{
+        width:1440px;
+        height:700px;    
+    }
+    .surveyBox{
+        border: 2px solid yellow;
+        margin-left: 15px;
+        padding: 20px;
+    }
+    .surveyHeading{
+        margin-bottom: 15px;
+        font-size: 32px;
+    }
+    .surveyingDef{
+        line-height: 40px;
+        font-size: 24px;
+    }
+    
+    .ourService{
+        border: 2px solid rgb(222, 73, 10);
+        margin-left: 15px;
+        margin-bottom: 100px;
+        display: flex;
+        
+    }
+    .serviceHeadingBox,.managementBox{
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+        border: 2px solid blue;
+        width: 300px;
+    }
+    .serviceHeading,.managementHeading{
+        padding-bottom: 14px;
+        font-size: 36px;
+        
+    }
+    .serviceDef,.managementDef{
+        font-size: 24px;
+        line-height: 32px;
+    
+    }
+    .cardOne,.cardTwo,.cardThree{
+        border: 2px solid greenyellow;
+        padding-top: 20px;
+        margin-right: 15px;
+    }
+    .cardThree{
+        border: 2px solid greenyellow;
+        padding-top: 20px;
+        margin-left: 15px;
+    }
+    .hydrographic{
+        font-size: 32px;
+        margin-bottom: 15px;
+        padding-left: 10px;
+    }
+    .hydroDef{
+        font-size: 24px;
+        width: 300px;
+        line-height: 30px;
+        border: 2px solid red;
+        padding-left: 10px;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        
+    }
+    .hydroImg{
+        width: 720px;
+    }
+    .hydroButton{
+        margin-left: auto;
+        width: 200px;
+        border: 2px solid greenyellow;
+        text-align: right;
+        
+    }
+    button{
+        background-color: rgba(0, 61, 155, 1);
+        color: white;
+        padding: 18px;
+        font-size: 24px;
+    
+    
+    }
+    .managementNote{
+        border: 2px solid greenyellow;
+    
+    }
+    .managementNote{
+        border: 2px solid red;
+        margin-left: 15px;
+        padding: 20px;
+        margin-bottom: 60px;
+        margin-top: 50px;
+    }
+    .manageMiniHead{
+        margin-bottom: 15px;
+        font-size: 32px;
+    }
+    .miniDef{
+        line-height: 48px;
+        font-size: 32px;
+    }
+    #footer{
+        background-color: rgba(0, 61, 155, 1);
+        display: flex;
+        flex-direction: row-reverse;
+        
+        
+    }
+    .newsletterBox{
+        border: 2px solid rgb(222, 73, 10);
+        padding: 20px;
+        margin-bottom: 50px;
+        
+    }
+    .newsletterHeading,.getHeading{
+        margin-bottom: 15px;
+        font-size: 32px;
+        
+    }
+    .newsDef{
+        line-height: 48px;
+        font-size: 24px;
+        margin-bottom: 50px;
+    }
+    .messageContainer{
+        display: flex;
+        justify-content: space-between;
+    }
+    .getMessageBox{
+        width: 250px;
+        border: 2px solid rgba(0, 61, 155, 1);
+        height: 50px;
+        background-color: whitesmoke;
+    }
+    input{
+        width: 250px;
+        height: 50px;
+    }
+    .subscriber{
+        width: 150px;
+        height: 50px;
+        border: 2px solid white;
+    }
+    .contactUs,.aboutUs{
+        font-size: 32px;
+        border: 2px solid rgb(222, 73, 10);
+        padding: 20px;
+        margin-bottom: 2px;
+    }
+    .aboutDef{
+        margin-top: 15px;
+        line-height: 48px;
+        font-size: 24px;
+        width: 500px;
+    
+    }
+    .mailLink,.phoneLink{
+        font-size: 24px;
+        margin-top: 1px;
+        margin-bottom: 1px;
+
+
+
+    }
+    .contactAbout{
+        border: 2px solid greenyellow;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    
+
+
+} 
